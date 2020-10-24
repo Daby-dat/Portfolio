@@ -1,14 +1,15 @@
 {
+  "name": "davidgomez",
+  "version": "12.17.0",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
     "bootstrap": "^4.5.3"
   },
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "serve -s build",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
-    }
+    "start": "serve -s build"
+  },
+  "description": "My portfolio",
+  "main": "index.js",
+  "author": "david gomez",
+  "license": "ISC"
 }
