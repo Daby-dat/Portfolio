@@ -1,0 +1,173 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #DCD31D !important;
+    transition: all 0.8s;
+}
+
+
+.nav-item:hover {
+    color: #DCD31D !important;
+    font-weight: bolder;
+}
+
+/* Hero Section */
+
+.section-home {
+    padding: 200px 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/assets/img/hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.circular--square {
+    border-top-right-radius: 50% 50% !important;
+    border-bottom-left-radius: 50% 50% !important;
+    width: 50%;
+}
+
+.hr {
+    border: 2px solid #DCD31D;
+    width: 40%;
+}
+
+.my-name {
+    color: #DCD31D;
+}
+
+.desc {
+    color: #fff !important;
+    text-align: center !important;
+}
+
+.section-about,
+.section-services,
+.section-portfolio,
+.section-contact,
+.section-probando {
+    background-color: #0f0f0f;
+    padding-top: 60px !important;
+}
+
+.bg-dark.scrolled {
+    background-color: #000000 !important;
+}
+
+.box-text>h4 {
+    color: rgb(185, 185, 185);
+}
+
+.box-text>h2,
+h3 {
+    color: #fff;
+}
+
+.box-text>p {
+    color: rgb(133, 127, 127);
+    font-size: 20px;
+    text-align: justify;
+}
+
+.skill-icon:hover>i {
+    color: #DCD31D;
+}
+
+.skill-icon:hover>.titles {
+    color: #fff;
+}
+
+.skill-icon:hover {
+    border-bottom: 2px solid #DCD31D;
+    transition: border-width 0.8 linear;
+    padding-bottom: 10px !important;
+}
+
+.fab {
+    font-size: 100px;
+}
+
+.fab-special {
+    font-size: 50px !important;
+}
+
+.fas {
+    font-size: 50px;
+}
+
+
+/* My services section */
+
+
+.carta {
+    font-size: 18px;
+    color: rgb(179, 165, 165);
+}
+
+.carousel-item:hover {
+    color: #000000 !important;
+}
+
+.special-contact:hover {
+    color: #DCD31D !important;
+}
+
+.links {
+    text-decoration: none !important;
+    color: #fff;
+}
+
+.links:hover {
+    color: #DCD31D;
+}
+
+.section-footer {
+    background-color: #000000 !important;
+    color: #fff;
+    font-size: small;
+}
+
+.link-copy {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-copy:hover {
+    text-decoration: none;
+    color: #DCD31D;
+}
+
+/* MEDIA QUERIES */
+@media(min-width:992px) {
+    .navbar {
+        background-color: transparent !important;
+    }
+}
+
+@media(max-width:992px) {
+    .navbar-brand {
+        color: #000000 !important;
+    }
+
+    .nav-item {
+        color: #000000 !important;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .nav-item:hover {
+        background-color: #000000 !important;
+        color: #e7dd13 !important;
+    }
+
+    .bg-dark.scrolled {
+        background-color: #e7dd13 !important;
+        transition: all 0.8;
+    }
+}
