@@ -96,7 +96,9 @@ h3 {
 .fab-special {
     font-size: 50px !important;
 }
-
+.fab-font{
+    font-size: 100px !important;
+}
 .fas {
     font-size: 50px;
 }
