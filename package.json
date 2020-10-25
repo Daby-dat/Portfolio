@@ -6,7 +6,7 @@
     "bootstrap": "^4.5.3"
   },
   "scripts": {
-    "start": "serve -s build"
+    "start": "node server.js"
   },
   "description": "My portfolio",
   "main": "index.js",
