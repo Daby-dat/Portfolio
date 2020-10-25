@@ -7,9 +7,5 @@
   },
   "scripts": {
     "start": "node server.js"
-  },
-  "description": "My portfolio",
-  "main": "index.js",
-  "author": "david gomez",
-  "license": "ISC"
+  }
 }
