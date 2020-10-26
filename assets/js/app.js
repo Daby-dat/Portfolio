@@ -2,12 +2,16 @@ $(window).scroll(function () {
     $('nav').toggleClass('scrolled', $(this).scrollTop() > 150);
 });
 
+
 $(document).ready(function () {
     $('.venobox').venobox({
         spinner: 'rotating-plane',
         spinColor: '#DCD31D',
+        share: ['facebook', 'twitter', 'download']
     });
 });
+
+
 $(".carousel").on("mouseenter", function () {
     $(this).carousel('cycle');
 }).on("mouseleave", function () {
