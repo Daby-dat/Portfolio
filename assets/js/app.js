@@ -7,7 +7,6 @@ $(document).ready(function () {
     $('.venobox').venobox({
         spinner: 'rotating-plane',
         spinColor: '#DCD31D',
-        share: ['facebook', 'twitter', 'download']
     });
 });
 
