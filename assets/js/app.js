@@ -5,6 +5,8 @@ $(window).scroll(function () {
 
 $(document).ready(function () {
     $('.venobox').venobox({
+        framewidth : '',                     
+        frameheight: '',                        
         spinner: 'rotating-plane',
         spinColor: '#DCD31D',
     });
