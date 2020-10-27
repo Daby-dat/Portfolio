@@ -2,15 +2,14 @@ $(window).scroll(function () {
     $('nav').toggleClass('scrolled', $(this).scrollTop() > 150);
 });
 
-
 $(document).ready(function () {
-    $('.venobox').venobox({                        
+    $('.venobox').venobox({
         spinner: 'rotating-plane',
         spinColor: '#DCD31D',
     });
 });
 
-$("#firstlink").venobox().trigger('click');
+// $("#firstlink").venobox().trigger('click');
 
 
 $(".carousel").on("mouseenter", function () {
@@ -18,4 +17,5 @@ $(".carousel").on("mouseenter", function () {
 }).on("mouseleave", function () {
     $(this).carousel('pause');
 });
+
 
