@@ -19,7 +19,7 @@ $(".carousel").on("mouseenter", function () {
 });
 
 
-$('.nav-link').click(function(e){				
+$('nav a').click(function(e){				
 		e.preventDefault();		//evitar el eventos del enlace normal
 		var strAncla=$(this).attr('href'); //id del ancla
 			$('body,html').stop(true,true).animate({				
