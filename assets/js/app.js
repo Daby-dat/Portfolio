@@ -9,9 +9,6 @@ $(document).ready(function () {
     });
 });
 
-// $("#firstlink").venobox().trigger('click');
-
-
 $(".carousel").on("mouseenter", function () {
     $(this).carousel('cycle');
 }).on("mouseleave", function () {
