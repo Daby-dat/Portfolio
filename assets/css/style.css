@@ -79,6 +79,25 @@ h3 {
     color: #DCD31D;
 }
 
+.skill-icon:hover > .fa-html5{
+    color: orangered;
+}
+.skill-icon:hover > .fa-git-alt{
+    color: orangered;
+}
+.skill-icon:hover > .fa-python{
+    color: rgb(63, 102, 207);
+}
+.skill-icon:hover > .fa-css3-alt{
+    color: rgb(63, 102, 207);
+}
+.skill-icon:hover > .fa-js-square{
+    color: #DCD31D;
+}
+.skill-icon:hover > .fa-bootstrap{
+    color: rgb(117, 30, 218);
+}
+
 .skill-icon:hover>.titles {
     color: #fff;
 }
