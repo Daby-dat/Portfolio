@@ -24,6 +24,6 @@ $('.nav-link').click(function(e){
 		var strAncla=$(this).attr('href'); //id del ancla
 			$('body,html').stop(true,true).animate({				
 				scrollTop: $(strAncla).offset().top
-			},150);
+			},0);
 		
 	});
